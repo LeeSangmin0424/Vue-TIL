@@ -35,6 +35,7 @@ const routes = createRouter({
 
 });
 
+
 createApp(App) // 제일 먼저 실행, router를 위한 영역만 가지고 있다. 그 다음 위를 path를 거친다.
 .use(routes) // router 객체 생성 
 .mount('#app')
